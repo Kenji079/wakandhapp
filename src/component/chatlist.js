@@ -301,7 +301,6 @@ import { StreamApp, FlatFeed, Activity, LikeButton, AggregatedFeed, ReactionIcon
 const CustomActivity = (props) => {
   { console.log("Props Data :- ", props.activity," feedgroup :- ",props.feedGroup) }
   return <Activity {...props}
-  
     // Header={
     //   <View>
     //   </View>
